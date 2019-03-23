@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="css/styles.css">
+<!-- Add font from GoogleFonts -->
+<link href="https://fonts.googleapis.com/css?family=Anton|Margarine" rel="stylesheet" rel="stylesheet">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="./WebPage2.html" class="active">Home</a>
+    <a href="./BioMe.html">BioMe</a>
+    <a href="./AcadeMe.html">AcadeMe</a>
+    <a href="./SciGeek.html">SciGeek</a>
+    <a href="./Hobbies.html">Hobbies</a>
+    <a href="./UseMe.html">UseMe</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div class="footer-social-icons">
+<!-- Add font awesome icons -->
+<a href="https://twitter.com/alesg_28" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/aleyda-sierra-gonzalez-91919487/" class="fa fa-linkedin"></a>
+<a href="https://scholar.google.com/citations?user=cFfFAaAAAAAJ&hl=es" class="fa fa-google"></a>
+</div>
