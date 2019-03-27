@@ -251,8 +251,3 @@ iframe {
   position: "left";
   display:block;
 }
-
-img {
-  height: auto;
-  width: auto\9; /* ie8 */
-}
